@@ -114,7 +114,12 @@ async function handleBooking(request, env) {
   });
 
   if (!resendResponse.ok) {
-    return jsonResponse({ error: "Email delivery failed" }, 502);
+    const errorText = await resendResponse.text();
+    console.error("Resend email delivery failed", {
+      status: resendResponse.status,
+      error: errorText,
+    });
+    return jsonResponse({ error: "Email delivery failed", detail: errorText }, 502);
   }
 
   return jsonResponse({ ok: true });
