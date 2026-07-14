@@ -360,7 +360,9 @@ function ContactPage() {
       form.reset();
       setSubmissionStatus("success");
     } catch {
-      setSubmissionError("提交暂时没有成功，请稍后再试。Submission failed. Please try again later.");
+      setSubmissionError(
+        "提交暂时没有成功，请稍后再试。若一直无法发送，请加微信或小红书联系我们。Submission failed. Please try again later. If it keeps failing, please contact us through WeChat or rednote.",
+      );
       setSubmissionStatus("error");
     } finally {
       window.clearTimeout(timeoutId);
