@@ -351,16 +351,17 @@ function ContactPage() {
         signal: controller.signal,
       });
 
-      const result = (await response.json().catch(() => ({}))) as { error?: string };
+      const result = (await response.json().catch(() => ({}))) as { detail?: string; error?: string };
 
       if (!response.ok) {
-        throw new Error(result.error || "Booking request failed");
+        throw new Error(result.detail || result.error || "Booking request failed");
       }
 
       form.reset();
       setSubmissionStatus("success");
-    } catch {
-      setSubmissionError("提交暂时没有成功，请稍后再试。Submission failed. Please try again later.");
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown error";
+      setSubmissionError(`提交暂时没有成功，请稍后再试。Submission failed. Please try again later. Debug: ${message}`);
       setSubmissionStatus("error");
     } finally {
       window.clearTimeout(timeoutId);

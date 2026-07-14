@@ -84,6 +84,11 @@ async function handleBooking(request, env) {
     message: cleanText(body.message),
   };
 
+  console.log("Booking request received", {
+    name: booking.name,
+    service: booking.service,
+  });
+
   if (!env.RESEND_API_KEY) {
     return jsonResponse({ error: "Missing RESEND_API_KEY" }, 500);
   }
