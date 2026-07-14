@@ -30,6 +30,7 @@ Set these environment variables in Cloudflare Pages:
 
 - `RESEND_API_KEY`: your Resend API key
 - `BOOKING_TO_EMAIL`: `dandi525@hotmail.com`
+- `BOOKING_CC_EMAIL`: `stepsma@hotmail.com`
 - `BOOKING_FROM_EMAIL`: a Resend verified sender, for example `TG Healing <booking@tghealingaroma.com>`
 
 After deployment, add the custom domain:

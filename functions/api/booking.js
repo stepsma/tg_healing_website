@@ -1,4 +1,5 @@
 const DEFAULT_TO_EMAIL = "dandi525@hotmail.com";
+const DEFAULT_CC_EMAIL = "stepsma@hotmail.com";
 const DEFAULT_FROM_EMAIL = "TG Healing <onboarding@resend.dev>";
 
 const jsonHeaders = {
@@ -95,6 +96,7 @@ export async function onRequestPost({ request, env }) {
   const emailPayload = {
     from: env.BOOKING_FROM_EMAIL || DEFAULT_FROM_EMAIL,
     to: [env.BOOKING_TO_EMAIL || DEFAULT_TO_EMAIL],
+    cc: [env.BOOKING_CC_EMAIL || DEFAULT_CC_EMAIL],
     subject: `TG Healing 预约需求 - ${booking.name}`,
     text,
     html,
