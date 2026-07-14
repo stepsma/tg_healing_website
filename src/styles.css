@@ -85,6 +85,32 @@ p {
   color: var(--sage-dark);
 }
 
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.78);
+}
+
+.language-toggle button {
+  min-width: 46px;
+  padding: 0.38rem 0.62rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.language-toggle button.active {
+  background: var(--sage-dark);
+  color: white;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
