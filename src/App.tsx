@@ -260,7 +260,7 @@ const content = {
         {
           tag: "Aromatherapy",
           title: "Aromatherapy Healing",
-          body: "Plant essential oils, gentle touch, and mindful relaxation help the body soften and give emotions a place to settle.",
+          body: "Plant essential oils, gentle touch, and mindful relaxation help to ease the tightness of your body and relief stress and emotions.",
         },
         {
           tag: "Workshops",
