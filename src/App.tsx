@@ -254,7 +254,7 @@ const content = {
       aboutKicker: "About TG Healing",
       aboutTitle: "A warm aromatherapy healing space",
       aboutText:
-        "We believe healing is not just a single service, but a gentler and more mindful way of living. Using pure plant essential oils as our medium, we combine meridian care, seasonal wellness, body-mind awareness, and hands-on creative experiences so adults, children, and families can find rest, creativity, and connection through scent.",
+        "We believe healing is not just a single service, but a gentler and more mindful way of living. Using pure plant essential oils, we combine meridian care, seasonal wellness, body-mind awareness, and hands-on creative experiences so adults, children, and families can find rest, creativity, and connection through scent.",
       serviceCategoriesLabel: "TG Healing service categories",
       categoryCards: [
         {
