@@ -265,7 +265,7 @@ const content = {
         {
           tag: "Workshops",
           title: "Natural Essential Oil DIY",
-          body: "Lipstick, aroma soap, candles, sinus balm, bug balm, perfume, sachets, and more: scent becomes a beautiful part of daily life that you can see and take home.",
+          body: "Lipstick, handmade natural soap and candles, sinus balm, bug balm, perfume, sachets, and more: scent becomes a beautiful part of daily life that you can see and take home.",
         },
         {
           tag: "Seasonal Wellness",
@@ -296,7 +296,7 @@ const content = {
         ],
         [
           "For groups and families: ",
-          "aroma soap, candles, oil blending, seasonal crafts, and beginner-friendly scent classes.",
+          "handmade natural soap and candles, oil blending, seasonal crafts, and beginner-friendly scent classes.",
         ],
         [
           "For group events: ",
