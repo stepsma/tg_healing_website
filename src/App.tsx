@@ -248,8 +248,7 @@ const content = {
       secondaryCta: "Explore Services",
       statementTitle: "We help the world Heal",
       statementSubtitle: "Bringing healing energy to the world",
-      statementBody:
-        "We are committed to sharing love and changing the world one drop, one person, one family, and one community at a time.",
+      statementBody: "",
       statementBodyEn:
         "Through our loving and caring culture, we are changing the world by one drop, one person, one family, one community at a time.",
       aboutKicker: "About TG Healing",
@@ -608,7 +607,7 @@ function HomePage({ language, onNavigate }: { language: Language; onNavigate: (p
               <div className="visual-caption healing-statement">
                 <strong>{t.statementTitle}</strong>
                 <span>{t.statementSubtitle}</span>
-                <p>{t.statementBody}</p>
+                {t.statementBody && <p>{t.statementBody}</p>}
                 <p>{t.statementBodyEn}</p>
               </div>
             </div>
