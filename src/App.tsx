@@ -91,6 +91,7 @@ const content = {
       galleryItems: [
         ["healing-studio.png", "TG Healing 芳香疗愈空间", "芳香疗愈空间", "tall"],
         ["healing-space-tea-table.png", "TG Healing 疗愈空间茶席布置", "芳香疗愈空间", ""],
+        ["healing-space-tea-set.jpg", "TG Healing 疗愈空间茶具与花艺", "芳香疗愈空间", ""],
         ["oil-workshop.png", "精油 DIY 手作材料", "精油 DIY 手作", ""],
         ["essential-oil-diy-candles.png", "精油 DIY 手作花朵蜡烛", "精油 DIY 手作", ""],
         ["essential-oil-diy-lipsticks.jpg", "精油 DIY 口红成品", "精油 DIY 手作", ""],
@@ -314,6 +315,7 @@ const content = {
       galleryItems: [
         ["healing-studio.png", "TG Healing aromatherapy space", "Healing Space", "tall"],
         ["healing-space-tea-table.png", "TG Healing healing space tea table setup", "Healing Space", ""],
+        ["healing-space-tea-set.jpg", "TG Healing healing space tea set and florals", "Healing Space", ""],
         ["oil-workshop.png", "Essential oil DIY materials", "Essential Oil DIY", ""],
         ["essential-oil-diy-candles.png", "Essential oil DIY flower candles", "Essential Oil DIY", ""],
         ["essential-oil-diy-lipsticks.jpg", "Essential oil DIY lipsticks", "Essential Oil DIY", ""],
