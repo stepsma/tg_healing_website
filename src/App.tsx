@@ -230,7 +230,7 @@ const content = {
     },
   },
   en: {
-    logoSub: "Aroma Academy",
+    logoSub: "Aroma Healing",
     nav: {
       home: "Home",
       services: "Services",
@@ -241,7 +241,7 @@ const content = {
     home: {
       kicker: "Aromatherapy · Holistic Wellness · Healing Space",
       title: "TG Healing",
-      titleSub: "Aroma Academy",
+      titleSub: "Aroma Healing",
       intro:
         "We connect body, mind, and everyday life through the language of plants. Blending aromatherapy, Chinese wellness wisdom, essential oil handcrafts, and holistic healing experiences, we invite you to slow down and reconnect with your body, emotions, and nature.",
       primaryCta: "Book Now",
@@ -451,7 +451,7 @@ const content = {
       ],
     },
     footer: {
-      brand: "TG Healing · Aroma Academy",
+      brand: "TG Healing · Aroma Healing",
       line: "Aromatherapy · Holistic Wellness · Healing Space",
       phone: "Phone:",
       address: "Address: 13555 NE Bel Red Rd Unit 200 Bellevue WA 98005",
