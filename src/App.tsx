@@ -91,6 +91,8 @@ const content = {
       galleryItems: [
         ["healing-studio.png", "TG Healing 芳香疗愈空间", "芳香疗愈空间", "tall"],
         ["oil-workshop.png", "精油 DIY 手作材料", "精油 DIY 手作", ""],
+        ["essential-oil-diy-candles.png", "精油 DIY 手作花朵蜡烛", "精油 DIY 手作", ""],
+        ["essential-oil-diy-lipsticks.jpg", "精油 DIY 口红成品", "精油 DIY 手作", ""],
         ["sound-healing.png", "芳香颂钵音疗布置", "芳香颂钵音疗", ""],
         ["aroma-yoga.png", "芳香瑜伽练习空间", "芳香瑜伽", "wide"],
       ] as Array<[string, string, string, string]>,
@@ -311,6 +313,8 @@ const content = {
       galleryItems: [
         ["healing-studio.png", "TG Healing aromatherapy space", "Healing Space", "tall"],
         ["oil-workshop.png", "Essential oil DIY materials", "Essential Oil DIY", ""],
+        ["essential-oil-diy-candles.png", "Essential oil DIY flower candles", "Essential Oil DIY", ""],
+        ["essential-oil-diy-lipsticks.jpg", "Essential oil DIY lipsticks", "Essential Oil DIY", ""],
         ["sound-healing.png", "Aroma singing bowl sound healing setup", "Sound Healing", ""],
         ["aroma-yoga.png", "Aroma yoga practice space", "Aroma Yoga", "wide"],
       ] as Array<[string, string, string, string]>,
